@@ -1,0 +1,156 @@
+.trainingtext {
+    position: relative !important;
+    background-position: center;
+    background-size: cover;
+}
+
+.trainingtext h3 {
+    font-weight: bold !important;
+    letter-spacing: 3px !important;
+}
+
+.trainingtext p {
+    color: #707070;
+    font-size: 18px;
+    letter-spacing: 1.02px !important;
+}
+
+@media screen and (max-width: 760px) {
+    .trainingtext h3 {
+        font-size: 2rem !important;
+    }
+
+    .trainingtext p {
+        font-size: 14px !important;
+    }
+}
+
+.righttext {
+    background-image: url('../../assets/icons/shapes/bgsecond.png');
+    background-position:right;
+    background-size:contain;
+}
+.righttext h4 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1 !important;
+   
+}
+
+.desc {
+    font-size: 16px;
+    color: #7e7e7e !important;
+    line-height: 1.5rem !important;
+}
+
+.righttext h6 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+    .bg-blue {
+        position: absolute !important;
+        width: 100% !important;
+        right: 0px !important;
+        top: 0px !important;
+        left: 0px !important;
+        bottom: 0px !important;
+    }
+
+    .bg-green {
+        position: absolute !important;
+        width: 95% !important;
+        right: 0px !important;
+        top: 0px !important;
+        left: 10px !important;
+        bottom: 686px !important;
+    }
+
+    .bg-dog {
+        position: absolute !important;
+        width: 55% !important;
+        right: 0px !important;
+        top: 62px !important;
+        left: 75px !important;
+        bottom: 0px !important;
+    }
+
+    .righttext h4 {
+        font-size: 38px !important;
+    }
+
+    .righttext h6 {
+        font-size: 20px !important;
+    }
+
+    .desc {
+        font-size: 12px !important;
+    }
+
+}
+
+.boxa {
+    position: absolute !important;
+    padding: 11px 28px !important;
+    width: 144px !important;
+    right: 16px !important;
+    top: 15px !important;
+}
+
+.boxa span {
+    font-size: 28px !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width:420px) {
+    .boxa {
+        padding: 9px 26px !important;
+        width: 75px !important;
+        right: 30px !important;
+        top: 40px !important;
+    }
+
+    .boxa span {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .boxa {
+        right: 135px !important;
+        top: 150px !important;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .boxa {
+        right: 25px !important;
+        top: 140px !important;
+    }
+}
+
+.tec-left-side {
+    text-align: center !important;
+}
+
+@media screen and (max-width: 560px) {
+    .red-image {
+        position: absolute !important;
+        width: 74% !important;
+        top: -58px !important;
+        left: 50px !important;
+    }
+
+    .dog-girl {
+        position: absolute !important;
+        right: 30px !important;
+        top: -155px !important;
+        width: 100% !important;
+    }
+
+    .brand-image {
+        position: absolute !important;
+        width: 60% !important;
+        left: -180px !important;
+    }
+}

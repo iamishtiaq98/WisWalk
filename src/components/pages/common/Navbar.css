@@ -1,0 +1,77 @@
+.appbar {
+    padding: 0 3rem 0 3rem;
+    background-color: #f9f9f9 !important;
+    font-family: Arial !important;
+    font-weight: 600 !important;
+}
+
+.MuiIconButton-sizeLarge svg {
+    color: #f84a6f !important;
+}
+
+.navbar_items {
+    color: black;
+}
+
+.MuiMenu-paper {
+    width: 100% !important;
+    background-color: #fff7f4 !important;
+    padding: 1rem;
+    left: 0 !important;
+}
+
+@media screen and (min-width: 500px) {
+    .MuiMenu-list {
+        width: 50% !important;
+    }
+}
+
+.menu-link {
+    text-decoration: none !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    letter-spacing: 1px !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    position: relative;
+}
+
+.menu-link:hover {
+    color: #f84a6f;
+}
+
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #f84a6f !important;
+    transform-origin: bottom left;
+    transition: 0.50s ease-out;
+}
+
+.menu-link:hover::after {
+    transform: scaleX(1);
+}
+
+.menu-link::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    transform: scaleX(0);
+    height: 2px;
+    top: -5px;
+    right: 0;
+    background-color: #f84a6f !important;
+    transform-origin: bottom right;
+    transition: 0.50s ease-out;
+}
+
+.menu-link:hover::before {
+    transform: scaleX(1);
+    width: 100%;
+}

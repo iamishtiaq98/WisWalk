@@ -1,0 +1,14 @@
+.App {
+  overflow: hidden;
+  font-family: 'Arial';
+}
+
+@media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: 1350px !important;
+  }
+}
+
+.css-1h8amko-MuiGrid-root {
+  margin-left: -53px !important;
+}

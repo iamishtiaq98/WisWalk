@@ -1,0 +1,107 @@
+.banner {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.banner-bg {
+    background-image: url('../../assets/icons/shapes/Path2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+@media screen and (max-width: 760px) {
+    .banner-bg {
+        height: 510px !important;
+      }
+}
+
+.banner-text {
+    text-align: start !important;
+    font-size: 16px;
+    max-width: 100%;
+    padding-left: 30px;
+    position: relative;
+    z-index: 999;
+}
+
+.banner-text h2 {
+    color: #000000 !important;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: bold;
+    font-size: 42px !important;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.banner-text p {
+    font-size: 16px;
+    color: #5b5b5b;
+}
+
+.get_started_btn {
+    padding: 5px 22px !important;
+    background-color: #f7496e !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+    outline: 1px solid #ce0a3475 !important;
+}
+
+.get_started_btn:hover {
+    background-color: #f50639 !important;
+    box-shadow: 1px 8px 15px 5px rgba(245, 6, 57, 0.34);
+}
+
+@media screen and (max-width: 899px) {
+    .dotimage {
+        position: absolute;
+        left: 65px !important;
+        width: 24px !important;
+        top: 135px !important;
+    }
+
+    .seconddot {
+        position: absolute;
+        width: 24px !important;
+        top: 65px !important;
+        left: 42px !;
+    }
+
+    .imagebgback {
+        position: relative !important;
+        width: 100% !important;
+        height: 330px !important;
+        position: absolute !important;
+        right: 0px !important;
+        top: 0px !important;
+    }
+
+    .imagebgfront {
+        position: relative !important;
+        width: 100% !important;
+        height: 350px !important;
+        top: 0px !important;
+        right: 0px !important;
+    }
+
+    .banner-text h1 {
+        font-size: 38px !important;
+    }
+
+    .banner-text h2 {
+        font-size: 24px !important;
+    }
+
+    .banner-text p {
+        font-size: 12px !important;
+    }
+}

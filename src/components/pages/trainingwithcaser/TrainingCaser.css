@@ -1,0 +1,168 @@
+.training-text {
+    position: relative !important;
+}
+
+.training-text h3 {
+    font-weight: bold !important;
+    letter-spacing: 3px !important;
+}
+
+.training-text p {
+    color: #707070;
+    font-size: 18px;
+    letter-spacing: 1.02px !important;
+}
+
+
+.btn_discover {
+    background-color: #ff6434 !important;
+    color: #fff !important;
+    padding: 10px 30px !important;
+    outline: 1px solid #ec4512 !important;
+    border: 0px !important;
+    border-radius: 6px !important;
+}
+
+.btn_discover:hover {
+    background-color: #ec4512 !important;
+    box-shadow: 1px 8px 15px 5px rgba(255, 50, 57, 0.34);
+    cursor: pointer;
+}
+
+.custom_card {
+    width: 100% !important;
+    padding: 12px !important;
+    border-radius: 0 !important;
+    height: 170px !important;
+    max-height: 170px !important;
+    position: relative;
+    z-index: 999;
+}
+
+.custom_card h6 {
+    padding-left: 8px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    line-height: 1.2 !important;
+    font-size: 17px !important;
+}
+
+.custom_card p {
+    margin: 0 !important;
+    font-family: "Arial", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.2 !important;
+    letter-spacing: 1 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+@media screen and (max-width: 760px) {
+    .training-text h3 {
+        font-size: 32px !important;
+    }
+
+    .training-text p {
+        font-size: 12px !important;
+    }
+}
+
+.right-text h4 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1 !important;
+}
+
+.description {
+    font-size: 16px;
+    color: #7e7e7e !important;
+    line-height: 1.5rem !important;
+}
+
+.right-text h6 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+    .bg_orange {
+        position: absolute !important;
+        width: 100% !important;
+        right: 0px !important;
+        top: 0px !important;
+        left: 0px !important;
+        bottom: 0px !important;
+    }
+
+    .bg_tree {
+        position: absolute !important;
+        width: 95% !important;
+        right: 0px !important;
+        top: 0px !important;
+        left: 10px !important;
+        bottom: 686px !important;
+    }
+
+    .bg_man_dog {
+        position: absolute !important;
+        width: 55% !important;
+        right: 0px !important;
+        top: 62px !important;
+        left: 75px !important;
+        bottom: 0px !important;
+    }
+
+    .right-text h4 {
+        font-size: 38px !important;
+    }
+
+    .right-text h6 {
+        font-size: 20px !important;
+    }
+
+    .description {
+        font-size: 12px !important;
+    }
+
+}
+
+.box {
+    position: absolute !important;
+    background-color: #f84a6f !important;
+    padding: 11px 28px !important;
+    width: 144px !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    text-align: center !important;
+    right: 16px !important;
+    top: 15px !important;
+}
+
+.box span {
+    font-size: 28px !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width:420px) {
+    .box {
+        padding: 9px 26px !important;
+        width: 75px !important;
+        right: 30px !important;
+        top: 40px !important;
+    }
+    .box span{
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .box {
+        right: 135px !important;
+        top: 150px !important;
+    }
+}
+@media screen and (max-width:700px) {
+    .box {
+        right: 25px !important;
+        top: 140px !important;
+    }
+}

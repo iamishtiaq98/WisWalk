@@ -1,0 +1,89 @@
+.banner-trainer {
+    background-image: url('../../assets/img/bannerbg.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner-trainer h2 {
+    color: #fff;
+    font-size: 48px !important;
+    font-weight: bold !important;
+}
+
+.banner-trainer::before {
+    content: "";
+    position: absolute;
+    background-color: #063182;
+    opacity: 0.4;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.right-side {
+    display: flex !important;
+    justify-content: flex-end !important;
+    z-index: 999 !important;
+}
+
+.text-area {
+    z-index: 999 !important;
+}
+
+.circle {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 40px;
+    background-color: #ffffff !important;
+    box-shadow: 1px 6px 15px -6px rgba(0, 0, 0, 0.58) !important;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1713a2;
+    font-weight: bold;
+}
+
+.circle-div:hover .circle {
+    background-color: #073b9e !important;
+    color: #fff !important;
+    transition: 0.4s !important;
+}
+
+.left-box {
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+}
+
+.right-box {
+    position: absolute;
+    top: 22px;
+    bottom: 0;
+    width: 60%;
+    right: -15px;
+    z-index: 999;
+}
+
+.bottom-box {
+    position: absolute;
+    width: 60%;
+    top: 45%;
+    right: 21%;
+}
+
+@media screen and (max-width:760px) {
+    .text-area h2{
+        font-size: 26px !important;
+    }
+    
+}

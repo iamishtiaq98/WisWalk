@@ -1,0 +1,29 @@
+.sec-bg {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 10%, rgba(255, 223, 227, 1) 45%);
+    padding: 60px 0;
+}
+
+.main-heading1 {
+    font-weight: bold !important;
+    font-size: 38px !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0 !important;
+}
+.tips-heading-text{
+    font-size: 12px !important;
+    font-weight: bold;
+    color: #555;
+}
+.image-box{
+    width: 100% !important;
+    border-radius: 0px !important;
+    text-align: center;
+}
+.image-box img{
+    border-radius: 0px !important;
+    width: 100% !important;
+}
+.image-box h6{
+    padding-top: 10px !important;
+    font-weight: bold !important;
+}

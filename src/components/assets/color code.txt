@@ -1,0 +1,16 @@
+color codes:
+
+heading color:
+
+pink: #F8496F
+=============
+other colors:
+
+blue: #083C9E
+green: #699C00
+pink: #F8496F
+orange: #DA7D06
+purple: #5C38DF
+light orange: #FC9C68
+====================
+font arail
